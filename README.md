@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my portfolio! This repository showcases my work as a MERN Stack Developer, Open Source Contributor, and Tech Blogger. Here, you will find various projects that highlight my skills and experience in web development.
+Welcome to my portfolio! This repository showcases my work as a NextJS Developer. Here, you will find various projects that highlight my skills and experience in web development.
 
 ## Table of Contents
 
