@@ -1,88 +1,79 @@
 const portfolio = [
     {
         id: 0,
-        projectName: "JMM ERP",
-        url: "https://jmmerp.com/",
+        projectName: "MedBuddy",
+        url: "https://github.com/dasrajput/MedBuddy",
         image: "projects/erp.png",
-        projectDetail: "Restructure your business with JMM ERP’s all-in-one cloud-based ERP. JMM ERP provides a robust, cost-effective online solution with state-of-the-art software to increase business value and enhance customer impact.",
+        projectDetail: "MedBuddy is a mobile application designed to help users manage their meal schedules and medication reminders efficiently. This app provides features for meal time tracking, medication reminders (via manual entry and OCR scanning), and profile management, all integrated with Firebase for real-time data storage.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "ReactNative"
             },
             {
-                tech: ".net"
+                tech: "expo"
             },
             {
-                tech: "GraphQL"
+                tech: "Firebase"
             },
             {
-                tech: "Ant Design"
+                tech: "Python Flask"
             },
             {
-                tech: "TailwindCSS"
-            },
+                tech: "Machine Learning"
+            }
         ]
     },
     {
         id: 0,
-        projectName: "ABSCO",
-        url: "https://absco.sa/",
+        projectName: "Football Analysis",
+        url: "https://github.com/dasrajput/Football_analysis",
         image: "projects/absco.png",
-        projectDetail: "ABSCO offer unparalleled business consulting solutions to meet client’s unique needs.",
+        projectDetail: "This project leverages AI to analyze football match videos, offering insights into player performance and team strategies. It features a GUI built with Tkinter for Windows and includes an installer created using Inno Setup. Key functionalities include object detection (YOLO), player tracking (SORT/DeepSORT), and camera movement estimation. Metrics",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "pytorch"
             },
             {
-                tech: "Ant Design"
+                tech: "Machine Learning"
             },
             {
-                tech: "TailwindCSS"
+                tech: "tkinter"
             },
         ]
     },
     {
         id: 0,
-        projectName: "JMM Technologies",
-        url: "https://jmm.ltd/",
+        projectName: "Whatsapp Automate",
+        url: "https://github.com/dasrajput/whatsapp-automate",
         image: "projects/jmm.png",
-        projectDetail: "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
+        projectDetail: "This is a Python application with a GUI that allows you to schedule and send WhatsApp messages. It utilizes the Twilio API for sending messages.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "PyQt6"
             },
             {
-                tech: ".net"
+                tech: "Twilio API"
             },
             {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
+                tech: "Python"
             },
         ]
     },
     {
         id: 0,
-        projectName: "ALSN",
-        url: "https://alsn.app/",
+        projectName: "GoTravel",
+        url: "https://github.com/dasrajput/GoTravel-ReactNative-App",
         image: "projects/alsn.png",
-        projectDetail: "ASLN drives digital transformation with certified document translation services. In an interconnected world where seamless communication is imperative, they are strategically positioned to cater to the needs of businesses, individuals, and organizations.",
+        projectDetail: "Hotel Booking App Using React-Native ,Tailwind-css ,Google_places, RapidApi.",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "React-Native"
             },
             {
-                tech: ".net"
+                tech: "Google_places"
             },
             {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
+                tech: "RapidApi"
             },
             {
                 tech: "TailwindCSS"
@@ -91,10 +82,10 @@ const portfolio = [
     },
     {
         id: 0,
-        projectName: "FirmSanad",
-        url: "/domain-expired",
+        projectName: "QR scanner",
+        url: "https://github.com/dasrajput/QR_Scanner",
         image: "projects/firmsanad.png",
-        projectDetail: "Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.",
+        projectDetail: "React-Native-Expo based QR-Scanner Application.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
@@ -115,121 +106,26 @@ const portfolio = [
     },
     {
         id: 0,
-        projectName: "Fateh Al Mustaqbil",
-        url: "https://fatehtour.com/",
+        projectName: "Portfolio Website",
+        url: "https://github.com/dasrajput/Portfolio_dssrajput",
         image: "projects/fateh.png",
-        projectDetail: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "Tojjar",
-        url: "/domain-expired",
-        image: "projects/tojjar.png",
-        projectDetail: "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
-        technologiesUsed: [
-            {
-                tech: "Nextjs with SSR"
-            },
-            {
-                tech: "Laravel"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 1,
-        projectName: "Otawix",
-        url: "https://b2c.otawix.com/",
-        image: "projects/otawix.png",
-        projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+        projectDetail: "This repository showcases my work as a MERN Stack Developer, Open Source Contributor, and Tech Blogger. Here, you will find various projects that highlight my skills and experience in web development.",
         technologiesUsed: [
             {
                 tech: "NextJS"
             },
+            
             {
-                tech: "NodeJS"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "MUI"
+                tech: "MailJS"
             },
             {
                 tech: "TailwindCSS"
             },
-        ]
-    },
-    {
-        id: 2,
-        projectName: "Spatay",
-        url: "https://spatay.com/",
-        image: "projects/spatay.png",
-        projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-        technologiesUsed: [
             {
-                tech: "ReactJS"
-            },
-            {
-                tech: "NodeJS"
-            },
-            {
-                tech: "REST API's"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
+                tech: "Vercel"
             },
         ]
-    },
-    // {
-    //     id: 2,
-    //     projectName: "Culyte",
-    //     url: "https://culyte.com",
-    //     image: "projects/culyte.png",
-    //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: "NodeJS"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
+    }
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)

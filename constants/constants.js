@@ -1,6 +1,6 @@
 export const NAME = 'Dindayal Singh';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `React Native Developer | Executable GUI Developer | Python ML`;
 
 export const DETAILS = {
   Residence: 'India',
@@ -10,24 +10,24 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
-    level: '75%',
+    title: 'Java Developer',
+    level: '15%',
   },
   {
     title: 'React Developer',
-    level: '91%',
+    level: '41%',
   },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
+  {
+     title: 'React Native Developer',
+     level: '75%',
+  },
   {
     title: 'Backend Developer',
     level: '54%',
   },
   {
-    title: 'Technical Blogger',
-    level: '83%',
+    title: 'Python ML',
+    level: '33%',
   },
 ];
 
@@ -37,22 +37,22 @@ export const TECH_STACK = [
   'NextJS',
   'TypeScript',
   'NodeJS',
-  'Redux',
-  'Zustand',
+  'Expo-React-Native',
+  //'Zustand',
   'CSS',
-  'SCSS',
+  //'SCSS',
   'TailwindCSS',
   'Ant Design',
-  'Material UI',
+  //'Material UI',
   'Next UI',
-  'REST API',
-  'MongoDB',
-  'MySQL',
+  //'REST API',
+  //'MongoDB',
+  //'MySQL',
   'Git',
   'GitHub',
-  'Jira',
+  //'Jira',
   'Figma',
-  'Adobe XD',
+  //'Adobe XD',
 ];
 
 export const CONTACTS = {
