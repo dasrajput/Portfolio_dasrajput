@@ -2,11 +2,9 @@ import Intro from '../components/Common/Intro';
 import Nav from '../components/Common/Nav/Nav';
 import { FaBars, FaMousePointer } from 'react-icons/fa';
 import { SlOptionsVertical } from 'react-icons/sl';
-import  { useState } from 'react';
+import { useState } from 'react';
 
-export default function Layout({
-  children
-}) {
+export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const [intro, setIntro] = useState(false);
 
