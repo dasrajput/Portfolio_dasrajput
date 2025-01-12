@@ -2,10 +2,12 @@ import Intro from '../components/Common/Intro';
 import Nav from '../components/Common/Nav/Nav';
 import { FaBars, FaMousePointer } from 'react-icons/fa';
 import { SlOptionsVertical } from 'react-icons/sl';
-import { useState } from 'react';
+import React, { useState }  from 'react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-export default function Layout({ children }) {
+export default function Layout({
+  children
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const [intro, setIntro] = useState(false);
 
@@ -58,7 +60,7 @@ export default function Layout({ children }) {
         </div>
         {<Nav isOpen={isOpen} setIsOpen={setIsOpen} />}
       </div>
-      {/* Add SpeedInsights here */}
+      {children}
       <SpeedInsights />
     </div>
   );
