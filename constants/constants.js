@@ -60,7 +60,7 @@ export const CONTACTS = {
   PHONE: '+919699140664',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/dsssingh',
+  GITHUB: 'https://github.com/dasrajput',
   LINKEDIN: 'https://www.linkedin.com/in/dindyal-singh23/',
   // TWITTER: 'https://twitter.com/iosamajavaid',
   // FACEBOOK: 'https://www.facebook.com/iosamajavaid',
